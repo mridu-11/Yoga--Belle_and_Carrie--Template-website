@@ -1,0 +1,413 @@
+body{
+    background-color: #077054;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.container{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+}
+
+h1, h2{
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    color: #99fa99;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgb(209, 198, 198);
+    font-size: 35px;
+    font-family: "Nixie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav_bar{
+    color: white;
+    list-style-type: none;
+    display: grid;
+    margin-top: 60px;
+    margin-bottom: 10px; 
+    grid-template-columns: 20% 20% 20% 20% 20%; 
+    text-align: center;
+    font-size: 25px;    
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+}
+
+#current{
+    color: #99fa99;
+}
+
+.nav_bar a:hover{
+    color: rgb(211, 141, 211);
+}
+
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown_item{
+    position: absolute;
+    list-style-type: none;
+    background-color: #077054;
+    text-align: center;
+    display: none;  
+    padding: 10px 15px; 
+    left: 0; 
+}
+   
+.dropdown:hover .dropdown_item{
+    display: block;
+}
+
+
+.main_img{
+    background-color: white;
+    height: 800px;
+    margin-top: 0;
+}
+
+.tagline{
+    color: #21a51e;
+    font-size: 100px;                   
+    text-align: center;
+    font-family: "Nixie One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    width:60%;
+    margin-left: 0;
+    float: left;
+}
+
+.yoga{
+    text-align: center;
+}
+
+.image{
+    float: right;
+    margin: 74px 70px 46px 0;
+    display: block;
+    width: auto;
+    max-width: 100%;
+    width: auto;
+} 
+
+.ending{
+    float: left;
+    display: inline-block;
+}
+
+#address{
+    color: #99fa99;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7px; 
+}
+ 
+#copyright{
+    color: white;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer>img{
+    float: right;
+    display: inline-block;
+}
+
+
+/* about page */
+
+.title{
+    color: #21a51e;          
+    text-align: left;
+    font-family: "Nixie One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    width:50%;
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+}
+
+.title>h2{
+    color: #21a51e;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.title>h3{
+    color: black;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.title>p{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+}
+
+/* classes page */
+
+.section{
+    color: #2d997a;
+    padding: 0 0 20px 0; 
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.section h3{
+    font-family: "Nixie One", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* instructor page */
+
+.instructor_info{
+    margin: 10px 0 40px 0;  
+    text-align: center;
+    height:250px;
+}
+ 
+
+div.photo1{
+    float: left;
+} 
+
+div.photo2{
+    float: right;
+}
+
+.instructor_info p{
+    margin: 0;
+    font-size: 20px;
+}
+
+
+/*contact page*/
+
+
+.form{
+    width: 450px;
+    margin: 25px auto 0;
+    padding: 0 200px
+
+}
+
+.form h3{
+    font-size: 25px;
+    color:#56b955e1;
+    padding: 25px 0 0;
+
+}
+
+.form label{
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    font-style:normal;
+    font-size:14px;
+    color:black;
+    /* margin-bottom: 15px; */
+    /* display: block; */
+    padding:15px 0 10px; 
+}
+
+.form input{
+    background-color: #d1d3d4;
+    border:1px solid #b6d8cf;
+    color:#315f52;
+    /* display: block; */
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    font-style:normal;
+    font-size:14px;
+    height: 40px;
+    width:445px;
+    margin: 10px 0 20px 0;
+}
+
+textarea{
+    background-color: #d1d3d4;
+    border:1px solid #b6d8cf;
+    color:#315f52;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    font-style:normal;
+    font-size:14px;
+    width:445px;
+    margin: 10px 0 5px 0;
+} 
+
+.form #send{
+    background-color: #077054;
+    color:#99fa99;
+    border: none;
+    border-radius:5px;
+    height:30px;
+    width:50px;
+    float: right;
+    margin: 0;
+}
+
+/* blog page */
+
+.title#blog{
+    color: #21a51e;          
+    text-align: left;
+    font-family: "Nixie One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    width:90%;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    float: left;
+}
+
+.blog_content{
+    margin: 0 30px 80px 30px;
+    color: #315f52;
+}
+
+.blog_content img{
+    float:left;
+    margin-right: 10px;
+}
+
+.blog_content #blog_head{
+    margin-top: 0;
+}
+
+.blog_content p{
+    margin: 8px 0;
+}
+
+.blog_content #blog_head a{
+    font-family: "Nixie One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 23px;
+    text-decoration: none;
+    color: #315f52;
+}
+
+#blog_head a:hover{
+    text-decoration: underline;
+}
+
+#blog_text{
+    line-height: 25px;
+}
+
+#blog_text a{
+    color: #315f52;
+}
+
+#blog_text a:hover{
+    color: purple;
+}
+
+/* blog 1 page */
+
+.description{
+    height: 600pt;
+    color: #315f52;
+    margin-left: 30px;
+    margin-right: 120px;
+}
+
+.article{
+    width:500px;
+    float:left;
+}
+
+.article h3{
+    font-family: "Nixie One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    margin:0;
+}
+
+#blog_date{
+    margin: 0;
+}
+
+.article img{
+    width: 500px;
+    height: 250px;
+}
+
+.article p{
+    line-height: 22px;
+}
+
+.article p a{
+    color: #315f52;
+}
+
+.article p a:hover{
+    color: purple;
+}
+
+.sidebar{
+    /* width:35%; */
+    width:230px;
+    float:right;
+    /* padding:0 0 0 50px; */
+}
+
+.sidebar h3,h4{
+    font-family: "Nixie One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    margin:0;
+}
+
+.sidebar h3{
+    font-size: 25px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding:0; 
+    margin:0;
+}
+
+.sidebar h4{
+    font-size: 20px;
+    padding: 20px 0 0 0;
+}
+
+.sidebar p{
+    padding-bottom:10px;
+}
+
+
+
+
